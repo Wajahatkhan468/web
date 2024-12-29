@@ -1,0 +1,805 @@
+body {
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #fff;
+
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #003366;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.logo-container img {
+    width: 71px;
+    height: auto;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.social-icons a {
+    color: #333;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+/* About Us Section */
+.about-us-section {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+}
+
+.about-us-section h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.about-us-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+
+.about-image-container img {
+    border-radius: 6px; 
+    width: 100%; 
+    height: auto;
+    height: auto;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4); 
+    
+}
+.about-image-container  {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.9); /* Example of a soft shadow */
+}
+
+.about-image-container{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Adjust logo size at 994px */
+    .logo-container img {
+        width: 60px;
+    }
+
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    /* Logo Text Color */
+}
+
+/* Navbar Styling */
+nav.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+/* Logo Container Styling */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-container img {
+    height: 50px; /* Fixed height for logo */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.logo-container h1 {
+    font-size: 1.5rem; /* Adjust font size */
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+nav.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+/* Logo Container Styling */
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-container img {
+    height: 50px; /* Fixed height for logo */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.logo-container h1 {
+    font-size: 1.5rem; /* Adjust font size */
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* Navbar Links Styling */
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000; /* Change color as per your design */
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Social Media Icons */
+.social-media-icons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Hamburger Menu Styling */
+.menu-toggle {
+    display: none; /* Initially hidden for larger screens */
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 3px 0;
+}
+/* Hero Section */
+.hero-section {
+    background: url('images/ship.jpg') no-repeat center center/cover;
+    color: #000000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.hero-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
+/* Hero Text */
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+}
+
+.hero-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size:48px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+
+    font-size: 20px;
+    padding-top: 1px;
+    letter-spacing: 2px;
+   
+ 
+}
+
+.btn-custom {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    padding: 0.8rem 2rem;
+    border-radius: 30px; 
+    transition: all 0.3s ease; 
+    background-color: #003366;
+    color: #fff;
+    text-decoration: none; 
+}
+
+/* Hover effect */
+.btn-custom:hover {
+    background-color: #01b9e7;
+    transform: scale(1.1); /* Slight scaling effect */
+    box-shadow: 0 5px 10px #01b9e7; /* Adds a shadow effect */
+    transition: 0.8s ease;
+    color: white;
+    transition: 0.7s ease;
+}
+
+/* Our Products Section */
+.products-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.products-section h2 {
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.product-box {
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Apply border-radius to the box */
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    overflow: hidden; /* Ensure border-radius works on images */
+}
+
+.product-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-box h4 {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.product-box p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Fix for images inside the product box */
+.product-box img {
+    width: 100%; /* Make the image take full width */
+    height: auto;
+    border-radius: 10px; /* Apply border-radius to the image */
+    object-fit: cover; /* Ensure image doesn't stretch */
+}
+
+/* Button Styling */
+.product-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-btn:hover {
+    background-color: #0056b3;
+}
+
+.services-section {
+    background-color: #003366;
+    padding: 60px 20px;
+
+}
+
+.services-section h2 {
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.service-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-box h4 {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.service-icon {
+    font-size: 2.5rem;
+    color: #007bff; /* Primary color */
+    margin-bottom: 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.service-box:hover .service-icon {
+    color: #0056b3; /* Hover color */
+    transform: scale(1.2);
+}
+/* Contact Us Section */
+.contact-us-section {
+    padding: 128px 30px;
+    background-color: #f4f7fb;
+    transition: background-color 0.3s ease;
+}
+
+.contact-us-section h2 {
+    font-size: 2.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.contact-us-section h2::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    background-color: #28a745;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Contact Form Styling */
+.contact-form h3 {
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 25px;
+}
+
+.contact-form label {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.contact-form .form-control {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form .form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 8px rgba(40, 167, 69, 0.5);
+    outline: none;
+}
+
+.contact-form button {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.contact-form button:hover {
+    background-color: #218838;
+    transform: translateY(-3px);
+}
+
+.contact-form button:active {
+    transform: translateY(1px);
+}
+
+/* Contact Info Styling */
+.contact-info h3 {
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.contact-info strong {
+    font-weight: 600;
+}
+
+.Contact-us-btn{
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    padding: 0.8rem 2rem;
+    border-radius: 30px; 
+    transition: all 0.3s ease; 
+    background-color: #003366;
+    color: #fff;
+    text-decoration: none; 
+}
+.Contact-us-btn:hover{
+    background-color: #01b9e7;
+    transform: scale(1.1); /* Slight scaling effect */
+    box-shadow: 0 5px 10px #01b9e7; /* Adds a shadow effect */
+    transition: 0.8s ease;
+    color: white;
+    transition: 0.7s ease;
+}
+
+.map-container {
+    margin-top: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.map-container iframe:hover {
+    transform: scale(1.05);
+}
+
+/* Footer General Styling */
+footer {
+    background-color: #003366;
+    color: #fff;
+    padding: 40px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Footer Sections Styling */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer-left, .footer-middle, .footer-info, .footer-social {
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Logo Styling */
+.footer-left .logo img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+/* Text Styling */
+footer h3, footer h4 {
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 5px 0;
+    line-height: 1.5;
+    color: #d4d4d4;
+}
+
+/* Links Styling */
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #01b9e7;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Social Icons Styling */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icon {
+    font-size: 20px;
+    color: #fff;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #1c1c1c;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #01b9e7;
+    color: #fff;
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    margin-top: 20px;
+   
+}
+
+
+@media (max-width: 994px) {
+    .navbar {
+        width: 100%;
+    }
+
+
+
+    .nav-links-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 1rem;
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+    }
+
+    .bar {
+        background: #fff;
+        height: 3px;
+        width: 25px;
+        margin: 3px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    /* Adjust navbar buttons on mobile */
+    .navbar-buttons-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 1rem;
+        text-align: center;
+        display: none;
+    }
+
+    .navbar-buttons.active {
+        display: flex;
+    }
+
+    /* Ensure the buttons are properly centered */
+    .navbar-buttons-container {
+        justify-content: center;
+    }
+
+    /* Make sure logo and navbar items adjust nicely */
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Adjust logo size at 994px */
+    .logo-container img {
+        width: 60px;
+    }
+    .nav-links {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+
+    .logo-container {
+        margin-bottom: 1rem;
+        flex-basis: 100%;
+    }
+
+    .nav-links-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 1rem;
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+    }
+
+    .bar {
+        background: #fff;
+        height: 3px;
+        width: 25px;
+        margin: 3px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    /* Ensure the buttons are properly centered */
+    .navbar-buttons-container {
+        justify-content: center;
+    }
+
+    .about-img-container {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-img-container {
+        width: 200px;
+        height: 200px;
+    }
+
+    .about-us-section h2 {
+        font-size: 2rem;
+    }
+
+    .about-us-section p {
+        font-size: 1rem;
+    }
+}
